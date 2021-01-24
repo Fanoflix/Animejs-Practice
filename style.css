@@ -1,13 +1,27 @@
 body {
-    text-align: center;
-    text-justify: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
 
 }
 
 .logo {
-    height: 800px;
-    width: 800px;
+    height: 350px;
+    width: 350px;
     background-image: url('Fano Logo.svg');
+}
+
+#Layer_1 {
+    animation: animTest infinite alternate;
+}
+
+@keyframes animTest {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(5px);
+    }
 }
