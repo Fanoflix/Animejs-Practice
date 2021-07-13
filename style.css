@@ -7,21 +7,8 @@ body {
 
 }
 
-.logo {
-    height: 350px;
-    width: 350px;
-    background-image: url('Fano Logo.svg');
-}
-
-#Layer_1 {
-    animation: animTest infinite alternate;
-}
-
-@keyframes animTest {
-    from {
-        transform: translateX(0px);
-    }
-    to {
-        transform: translateX(5px);
-    }
+svg {
+    cursor: pointer;
+    height: 155px;
+    width: 155px;
 }
